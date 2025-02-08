@@ -18,7 +18,7 @@ const HeroLayout = ({children}) => {
   return (
     <Box as="main" sx={{width: '100%'}}>
       <DarkTheme sx={{bg: 'canvas.inset', py: [0, 4, 5, 6]}}>
-        <Container sx={{p: 5, mx: 'auto'}}>
+        <Container sx={{p: 5, mx: 'auto' }}>
           <Heading as="h1" sx={{color: 'fg.default', fontSize: 7, m: 0}}>
             {title}
           </Heading>
